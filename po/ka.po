@@ -1,0 +1,2178 @@
+# Georgian translation for WindowMakger.
+# Copyright (C) 2026 WindowMakger's authors.
+# This file is distributed under the same license as the WindowMakger package.
+# Ekaterine Papava <papava.e@gtu.ge>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WindowMakger\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-19 22:16+0200\n"
+"PO-Revision-Date: 2026-09-22 08:21+0200\n"
+"Last-Translator: Ekaterine Papava <papava.e@gtu.ge>\n"
+"Language-Team: Georgian <(nothing)>\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.9\n"
+
+#: ../src/actions.c:1450
+#, c-format
+msgid "window \"%s\" has a severely broken WM_TRANSIENT_FOR hint"
+msgstr "ფანჯრას \"%s\" ძალიან დაზიანებული WM_TRANSIENT_FOR მინიშნება აქვს"
+
+#: ../src/actions.c:1560
+#, c-format
+msgid "creation of mini-preview failed for window \"%s\""
+msgstr "მინიატურის შექმნა ჩავარდა ფანჯრისთვის \"%s\""
+
+#: ../src/appicon.c:546 ../src/dialog.c:600 ../src/dock.c:3434
+#: ../src/dockedapp.c:172 ../src/main.c:288 ../src/rootmenu.c:1730
+#: ../src/winspector.c:479 ../src/winspector.c:495 ../src/workspace.c:148
+msgid "Error"
+msgstr "შეცდომა"
+
+#: ../src/appicon.c:547
+msgid "Could not open specified icon file"
+msgstr "მითითებული ხატულის ფაილის გახსნა შეუძლებელია"
+
+#: ../src/appicon.c:548 ../src/dialog.c:440 ../src/dialog.c:504
+#: ../src/dialog.c:600 ../src/dialog.c:1019 ../src/dialog.c:1805
+#: ../src/dock.c:452 ../src/dock.c:459 ../src/dock.c:506 ../src/dock.c:3434
+#: ../src/dock.c:4568 ../src/dockedapp.c:173 ../src/dockedapp.c:364
+#: ../src/main.c:288 ../src/rootmenu.c:1733 ../src/winspector.c:479
+#: ../src/winspector.c:495 ../src/winspector.c:801 ../src/workspace.c:148
+msgid "OK"
+msgstr "დიახ"
+
+#: ../src/appicon.c:578 ../src/dock.c:229
+msgid ""
+" will be forcibly closed.\n"
+"Any unsaved changes will be lost.\n"
+"Please confirm."
+msgstr ""
+" ძალით დაიხურება.\n"
+"შეუნახავი ცვლილებები დაიკარგება.\n"
+"დაადასტურეთ."
+
+#: ../src/appicon.c:585 ../src/dock.c:247 ../src/winmenu.c:258
+msgid "Kill Application"
+msgstr "აპლიკაციის მოკვლა"
+
+#: ../src/appicon.c:586 ../src/dock.c:248 ../src/winmenu.c:261
+msgid "Yes"
+msgstr "დიახ"
+
+#: ../src/appicon.c:586 ../src/dock.c:248 ../src/winmenu.c:261
+msgid "No"
+msgstr "არა"
+
+#: ../src/appicon.c:611 ../src/dock.c:1301 ../src/dock.c:3615
+msgid "Unhide Here"
+msgstr "აქ გამოჩენა"
+
+#: ../src/appicon.c:612 ../src/appicon.c:636 ../src/dock.c:1303
+#: ../src/dock.c:1305 ../src/dock.c:3627 ../src/winmenu.c:87
+msgid "Hide"
+msgstr "დამალვა"
+
+#: ../src/appicon.c:613 ../src/dock.c:1299 ../src/winmenu.c:93
+msgid "Launch"
+msgstr "გაშვება"
+
+#: ../src/appicon.c:614
+msgid "Set Icon..."
+msgstr "ხატულის დაყენება..."
+
+#: ../src/appicon.c:615 ../src/dock.c:1309 ../src/dock.c:1311
+#: ../src/dock.c:3645 ../src/rootmenu.c:185 ../src/winmenu.c:95
+msgid "Kill"
+msgstr "მოკვლა"
+
+#: ../src/appicon.c:634 ../src/dock.c:3625
+msgid "Unhide"
+msgstr "გამოჩენა"
+
+#: ../src/appmenu.c:93 ../src/appmenu.c:109 ../src/appmenu.c:125
+#: ../src/appmenu.c:135 ../src/appmenu.c:172 ../src/appmenu.c:194
+#, c-format
+msgid "appmenu: bad menu entry \"%s\" in window %lx"
+msgstr "appmenu: არასწორი მენიუს პუნქტი \"%s\" ფანჯარაში %lx"
+
+#: ../src/appmenu.c:97
+#, c-format
+msgid "appmenu: menu command size exceeded in window %lx"
+msgstr "appmenu: მენიუს ბრძანების ზომა გადაცილებულია ფანჯარაში %lx"
+
+#: ../src/appmenu.c:143 ../src/appmenu.c:153 ../src/appmenu.c:186
+#, c-format
+msgid "appmenu: out of memory creating menu for window %lx"
+msgstr "appmenu: არასაკმარისი მეხსიერება მენიუს შექმნისას ფანჯრისთვის %lx"
+
+#: ../src/appmenu.c:218
+#, c-format
+msgid "appmenu: unknown version of WMMenu in window %lx: %s"
+msgstr "appmenu: WMMenu-ის უცნობი ვერსია ფანჯარაში %lx: %s"
+
+#: ../src/defaults.c:935
+#, c-format
+msgid "Domain %s (%s) of global defaults database is corrupted!"
+msgstr "გლობალური ნაგულისხმევების მონაცემთა ბაზის დომენი %s (%s) დაზიანებულია!"
+
+#: ../src/defaults.c:939
+#, c-format
+msgid "could not load domain %s from global defaults database"
+msgstr ""
+"გლობალური ნაგულისხმევების მონაცემთა ბაზიდან დომენის %s ჩატვირთვა შეუძლებელია"
+
+#: ../src/defaults.c:984 ../src/defaults.c:998
+#, c-format
+msgid "invalid global menu file %s"
+msgstr "გლობალური მენიუს არასწორი ფაილი %s"
+
+#: ../src/defaults.c:1033 ../src/defaults.c:1112 ../src/defaults.c:1151
+#: ../src/defaults.c:1192
+#, c-format
+msgid "Domain %s (%s) of defaults database is corrupted!"
+msgstr "ნაგულისხმევების მონაცემთა ბაზის დომენი %s (%s) დაზიანებულია!"
+
+#: ../src/defaults.c:1037 ../src/defaults.c:1134 ../src/defaults.c:1178
+#: ../src/defaults.c:1202
+#, c-format
+msgid "could not load domain %s from user defaults database"
+msgstr ""
+"მომხმარებლის ნაგულისხმევების მონაცემთა ბაზიდან დომენის %s ჩატვირთვა "
+"შეუძლებელია"
+
+#. --------------------------- Local -----------------------
+#: ../src/defaults.c:1477 ../src/defaults.c:1629 ../src/defaults.c:1724
+#: ../src/defaults.c:2132 ../src/defaults.c:2148 ../src/defaults.c:2193
+#: ../src/defaults.c:2242 ../src/defaults.c:2699 ../src/wdefaults.c:639
+#, c-format
+msgid "Wrong option format for key \"%s\". Should be %s."
+msgstr "არასწორი პარამეტრის ფორმატი გასაღებისთვის \"%s\". უნდა იყოს %s."
+
+#: ../src/defaults.c:1479 ../src/defaults.c:1578 ../src/defaults.c:1606
+#: ../src/defaults.c:1633 ../src/defaults.c:1645 ../src/defaults.c:1659
+#: ../src/defaults.c:1673 ../src/defaults.c:1728 ../src/defaults.c:1740
+#: ../src/defaults.c:2136 ../src/defaults.c:2153 ../src/defaults.c:2165
+#: ../src/defaults.c:2198 ../src/defaults.c:2214 ../src/defaults.c:2247
+#: ../src/defaults.c:2330 ../src/defaults.c:2704 ../src/defaults.c:2715
+#, c-format
+msgid "using default \"%s\" instead"
+msgstr "სამაგიეროდ გამოიყენება ნაგულისხმევი \"%s\""
+
+#: ../src/defaults.c:1506
+#, c-format
+msgid "wrong option value for key \"%s\"; got \"%s\", should be one of %s."
+msgstr ""
+"არასწორი პარამეტრის მნიშვნელობა გასაღებისთვის \"%s\". მივიღე \"%s\", უნდა "
+"იყოს %s."
+
+#: ../src/defaults.c:1574
+#, c-format
+msgid "can't convert \"%s\" to boolean for key \"%s\""
+msgstr ""
+"\"%s\"-ის გადაყვანა ლოგიკურ მნიშვნელობაზე გასაღებისთვის \"%s\" შეუძლებელია"
+
+#: ../src/defaults.c:1604
+#, c-format
+msgid "can't convert \"%s\" to integer for key \"%s\""
+msgstr "\"%s\"-ის გადაყვანა მთელ რიცხვში გასაღებისთვის \"%s\" შეუძლებელია"
+
+#: ../src/defaults.c:1641
+#, c-format
+msgid "Incorrect number of elements in array for key \"%s\"."
+msgstr "ელემენტების არასწორი რაოდენობა მასივში გასაღებისთვის \"%s\"."
+
+#: ../src/defaults.c:1655
+#, c-format
+msgid "Wrong value for key \"%s\". Should be Coordinate."
+msgstr "არასწორი მნიშვნელობა გასაღებისთვის \"%s\". უნდა იყოს კოორდინატი."
+
+#: ../src/defaults.c:1669
+#, c-format
+msgid "can't convert array to integers for \"%s\"."
+msgstr "მასივის მთელ რიცხვებში გადაყვანა შეუძლებელია \"%s\"-ისთვის."
+
+#: ../src/defaults.c:1846 ../src/defaults.c:1876 ../src/defaults.c:1892
+#: ../src/defaults.c:1921 ../src/defaults.c:1943 ../src/defaults.c:1994
+#: ../src/defaults.c:2033 ../src/defaults.c:2070 ../src/defaults.c:2086
+#, c-format
+msgid "\"%s\" is not a valid color name"
+msgstr "\"%s\" სწორი ფერის სახელი არაა"
+
+#: ../src/defaults.c:1858 ../src/defaults.c:1909
+msgid "bad number of arguments in gradient specification"
+msgstr "არგუმენტების არასწორი რაოდენობა გრადიენტის სპეციფიკაციაში"
+
+#: ../src/defaults.c:1967
+msgid "too few arguments in multicolor gradient specification"
+msgstr "მეტისმეტად ცოტა არგუმენტი მრავალფერიანი გრადიენტის სპეციფიკაციაში"
+
+#: ../src/defaults.c:2059
+msgid "bad number of arguments in textured gradient specification"
+msgstr ""
+"არგუმენტების არასწორი რაოდენობა ტექსტურების მქონე გრადიენტის სპეციფიკაციაში"
+
+#: ../src/defaults.c:2102
+#, c-format
+msgid "bad opacity value for tgradient texture \"%s\". Should be [0..255]"
+msgstr ""
+"არასწორი გაუმჭვირვალობის მნიშვნელობა tgradient-ის ტექსტურისთვის \"%s\". უნდა "
+"ყოფილიყო [0..255]"
+
+#: ../src/defaults.c:2119
+#, c-format
+msgid "invalid texture type %s"
+msgstr "არასწორი ტექსტურის ტიპი %s"
+
+#: ../src/defaults.c:2161
+#, c-format
+msgid "Error in texture specification for key \"%s\""
+msgstr "შეცდომა ტექსტურის სპეციფიკაციაში გასაღებისთვის \"%s\""
+
+#: ../src/defaults.c:2210
+msgid "Wrong type for workspace background. Should be a texture type."
+msgstr "არასწორი ტიპი სამუშაო სივრცის ფონისთვის. უნდა ყოფილიყო ტექსტურის ტიპი."
+
+#: ../src/defaults.c:2260
+#, c-format
+msgid "Wrong type for background of workspace %i. Should be a texture."
+msgstr "არასწორი ფონის ტიპი სამუშაო სივრცისთვის %i. უნდა ყოფილიყო ტექსტურა."
+
+#: ../src/defaults.c:2301
+msgid "could not load any usable font!!!"
+msgstr "გამოყენებადი ფონტების ჩატვირთვა შეუძლებელია!!!"
+
+#: ../src/defaults.c:2326
+#, c-format
+msgid "could not get color for key \"%s\""
+msgstr "ვერ მივიღე ფერი გასაღებისთვის \"%s\""
+
+#: ../src/defaults.c:2364 ../src/rootmenu.c:460
+#, c-format
+msgid "%s: invalid key modifier \"%s\""
+msgstr "%s: არასწორი ღილაკის მოდიფიკატორი \"%s\""
+
+#: ../src/defaults.c:2373
+#, c-format
+msgid "%s: invalid kbd shortcut specification \"%s\""
+msgstr "%s: არასწორი კლავიატურის მალსახმობის სპეციფიკაცია \"%s\""
+
+#: ../src/defaults.c:2379
+#, c-format
+msgid "%s: invalid key in shortcut \"%s\""
+msgstr "%s: არასწორი ღილაკი მალსახმობში \"%s\""
+
+#: ../src/defaults.c:2464
+#, c-format
+msgid "%s: modifier key %s is not valid"
+msgstr "%s: მოდიფიკატორი ღილაკი %s არასწორია"
+
+#: ../src/defaults.c:2571
+#, c-format
+msgid "failed to open bitmap file \"%s\""
+msgstr "გახსნის შეცდომა რასტრული ფაილისთვის \"%s\""
+
+#: ../src/defaults.c:2574
+#, c-format
+msgid "\"%s\" is not a valid bitmap file"
+msgstr "\"%s\" სწორი რასტრული ფაილი არაა"
+
+#: ../src/defaults.c:2577
+#, c-format
+msgid "out of memory reading bitmap file \"%s\""
+msgstr "არასაკმარისი მეხსიერება ბიტური რუკის ფაილის (%s) წაკითხვისას"
+
+#: ../src/defaults.c:2615 ../src/defaults.c:2648
+msgid "bad number of arguments in cursor specification"
+msgstr "არგუმენტების არასწორი რაოდენობა კურსორის სპეციფიკაციაში"
+
+#: ../src/defaults.c:2631
+#, c-format
+msgid "unknown builtin cursor name \"%s\""
+msgstr "უცნობი ჩაშენებული კურსორის სახელი \"%s\""
+
+#: ../src/defaults.c:2658 ../src/defaults.c:2670
+#, c-format
+msgid "could not find cursor bitmap file \"%s\""
+msgstr "ვერ ვიპოვე კურსორის რასტრული ფაილი \"%s\""
+
+#: ../src/defaults.c:2711
+#, c-format
+msgid "Error in cursor specification for key \"%s\""
+msgstr "შეცდომა კურსორის სპეციფიკაციაში გასაღებისთვის \"%s\""
+
+#: ../src/defaults.c:2836
+msgid "could not render texture for icon background"
+msgstr "ხატულის ფონის ტექსტურის რენდერის შეცდომა"
+
+#: ../src/defaults.c:3312
+#, c-format
+msgid "Invalid arguments for background \"%s\""
+msgstr "არასწორი არგუმენტები ფონისთვის \"%s\""
+
+#: ../src/defaults.c:3567 ../src/defaults.c:3638
+#, c-format
+msgid "Invalid arguments for option \"%s\""
+msgstr "არასწორი არგუმენტები პარამეტრისთვის \"%s\""
+
+#: ../src/defaults.c:3573 ../src/defaults.c:3644
+#, c-format
+msgid "Could not find image \"%s\" for option \"%s\""
+msgstr "გამოსახულების \"%s\" პოვნა შეუძლებელია პარამეტრისთვის \"%s\""
+
+#: ../src/defaults.c:3578 ../src/defaults.c:3652
+#, c-format
+msgid "Could not load image \"%s\" for option \"%s\""
+msgstr "გამოსახულების \"%s\" ჩატვირთვა შეუძლებელია პარამეტრისთვის \"%s\""
+
+#: ../src/defaults.c:3588
+msgid "Invalid split sizes for switch panel back image."
+msgstr "არასწორი გაყოფის ზომები პანელის უკანა გამოსახულების გადასართავად."
+
+#: ../src/defaults.c:3659
+#, c-format
+msgid "Invalid number of arguments for option \"%s\""
+msgstr "არგუმენტების არასწორი რაოდენობა პარამეტრისთვის \"%s\""
+
+#: ../src/defaults.c:3675
+#, c-format
+msgid "Value for option \"%s\" must be an array of 7 strings"
+msgstr "მნიშვნელობა პარამეტრისთვის \"%s\" 7 სტრიქონის მასივი უნდა იყოს"
+
+#: ../src/defaults.c:3689 ../src/defaults.c:3725 ../src/defaults.c:3761
+#, c-format
+msgid "Invalid argument for option \"%s\" item %d"
+msgstr "არასწორი არგუმენტები პარამეტრისთვის \"%s\" ელემენტი %d"
+
+#: ../src/defaults.c:3706
+#, c-format
+msgid "Value for option \"%s\" must be an array of 9 strings"
+msgstr "მნიშვნელობა პარამეტრისთვის \"%s\" 9 სტრიქონის მასივი უნდა იყოს"
+
+#: ../src/defaults.c:3720
+#, c-format
+msgid "Invalid argument for option \"%s\" item %d, cannot be empty"
+msgstr ""
+"არასწორი არგუმენტი პარამეტრისთვის \"%s\" ელემენტი %d. ცარიელი ვერ იქნება"
+
+#: ../src/defaults.c:3742
+#, c-format
+msgid "Value for option \"%s\" must be an array of 4 strings"
+msgstr "მნიშვნელობა პარამეტრისთვის \"%s\" 4 სტრიქონის მასივი უნდა იყოს"
+
+#: ../src/dialog.c:138
+msgid "Save workspace state"
+msgstr "სამუშაო სივრცის მდგომარეობის შენახვა"
+
+#: ../src/dialog.c:440 ../src/dialog.c:504 ../src/dialog.c:1026
+#: ../src/dock.c:506 ../src/dock.c:4568 ../src/dockedapp.c:369
+#: ../src/misc.c:768 ../src/rootmenu.c:185
+msgid "Cancel"
+msgstr "გაუქმება"
+
+#: ../src/dialog.c:598
+#, c-format
+msgid ""
+"Could not open directory \"%s\":\n"
+"%s"
+msgstr ""
+"ვერ გავხსენი საქაღალდე \"%s\":\n"
+"%s"
+
+#: ../src/dialog.c:614
+#, c-format
+msgid "full path for file \"%s\" in \"%s\" is longer than %d bytes, skipped"
+msgstr ""
+"სრული ბილიკი ფაილისთვის \"%s\" \"%s\"-ში %d ბაიტზე გრძელია. გამოტოვებულია"
+
+#: ../src/dialog.c:651
+msgid "Could not load image file "
+msgstr "გამოსახულების ჩატვირთვის შეცდომა ფაილიდან "
+
+#: ../src/dialog.c:953
+msgid "Directories"
+msgstr "საქაღალდეები"
+
+#: ../src/dialog.c:962
+msgid "Icons"
+msgstr "ხატულები"
+
+#: ../src/dialog.c:995
+msgid "Preview"
+msgstr "მინიატურა"
+
+#: ../src/dialog.c:1008
+msgid "File Name:"
+msgstr "ფაილის სახელი:"
+
+#: ../src/dialog.c:1032
+msgid "Choose File"
+msgstr "ფაილის არჩევა"
+
+#: ../src/dialog.c:1049
+msgid "Icon Chooser"
+msgstr "ხატულას ამრჩევი"
+
+#: ../src/dialog.c:1190
+msgid "no os-release file on the system"
+msgstr "სისტემაში os-release ფაილი არ არსებობს"
+
+#: ../src/dialog.c:1335
+msgid "Window Manager for X"
+msgstr "ფანჯრების მმართველი X-სთვის"
+
+#: ../src/dialog.c:1337
+#, c-format
+msgid "Version %s"
+msgstr "ვერსია %s"
+
+#: ../src/dialog.c:1363 ../src/dialog.c:1367
+#, c-format
+msgid "Running on: %s (%s)\n"
+msgstr "პლატფორმა: %s (%s)\n"
+
+#: ../src/dialog.c:1371
+#, c-format
+msgid "Using visual 0x%x: %s %ibpp "
+msgstr "გამოიყენება ვიზუალი 0x%x: %s %ibpp "
+
+#: ../src/dialog.c:1377
+msgid "(32 thousand colors)\n"
+msgstr "(32 ათასი ფერი)\n"
+
+#: ../src/dialog.c:1380
+msgid "(64 thousand colors)\n"
+msgstr "(64 ათასი ფერი)\n"
+
+#: ../src/dialog.c:1384
+msgid "(16 million colors)\n"
+msgstr "(16 მილიონი ფერი)\n"
+
+#: ../src/dialog.c:1388
+msgid "(1 billion colors)\n"
+msgstr "(1 მილიარდი ფერი)\n"
+
+#: ../src/dialog.c:1391
+#, c-format
+msgid "(%d colors)\n"
+msgstr "(%d ფერი)\n"
+
+#: ../src/dialog.c:1401
+#, c-format
+msgid "Total memory allocated: %lu kB (in use: %lu kB, %lu free chunks)\n"
+msgstr ""
+"სულ გამოყოფილი მეხსიერაბ: %lu კბ (გამოყენებულია: %lu კბ, %lu თავისუფალი "
+"ფრაგმენტი)\n"
+
+#: ../src/dialog.c:1403
+#, c-format
+msgid "Total memory allocated: %lu kB (in use: %lu kB)\n"
+msgstr "სულ გამოყოფილი მეხსიერაბ: %lu კბ (გამოყენებულია: %lu კბ)\n"
+
+#: ../src/dialog.c:1421
+msgid "Image formats: "
+msgstr "სურათის ფორმატები: "
+
+#: ../src/dialog.c:1431
+msgid ""
+"\n"
+"Additional support for: "
+msgstr ""
+"\n"
+"დამატებითი მხარდაჭერა: "
+
+#: ../src/dialog.c:1451 ../src/dialog.c:1464
+msgid "\n"
+msgstr "\n"
+
+#: ../src/dialog.c:1453
+msgid "Solaris "
+msgstr "Solaris "
+
+#: ../src/dialog.c:1455
+msgid "Xinerama: "
+msgstr "Xinerama: "
+
+#: ../src/dialog.c:1458
+#, c-format
+msgid "%d head(s) found"
+msgstr "აღმოჩენილია %d თავაკი"
+
+#: ../src/dialog.c:1458
+#, c-format
+msgid "%d head found"
+msgstr "ნაპოვნია %d თავი"
+
+#: ../src/dialog.c:1467
+msgid "supported"
+msgstr "მხარდაჭერილი"
+
+#: ../src/dialog.c:1469
+msgid "unsupported"
+msgstr "მხარდაუჭერელი"
+
+#: ../src/dialog.c:1498
+msgid "Info"
+msgstr "ინფორმაცია"
+
+#: ../src/dialog.c:1581
+msgid ""
+"    Window Maker is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2 of the License, or (at your option) "
+"any later version.\n"
+"\n"
+"    Window Maker is distributed in the hope that it will be useful, but "
+"WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
+"or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for "
+"more details.\n"
+"\n"
+"    You should have received a copy of the GNU General Public License along "
+"with this program; if not, see <https://www.gnu.org/licenses/>."
+msgstr ""
+"    Window Maker is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2 of the License, or (at your option) "
+"any later version.\n"
+"\n"
+"    Window Maker is distributed in the hope that it will be useful, but "
+"WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
+"or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for "
+"more details.\n"
+"\n"
+"    You should have received a copy of the GNU General Public License along "
+"with this program; if not, see <https://www.gnu.org/licenses/>."
+
+#: ../src/dialog.c:1600
+msgid "Legal"
+msgstr "იურიდიული ინფორმაცია"
+
+#: ../src/dialog.c:1729 ../src/monitor.c:55
+msgid "cannot open connection for crashing dialog panel. Aborting."
+msgstr ""
+"ავარიული დიალოგის პანელისთვის კავშირის გახსნა შეუძლებელია. მუშაობა შეწყდება."
+
+#: ../src/dialog.c:1759
+msgid "Fatal error"
+msgstr "ფატალური შეცდომა"
+
+#: ../src/dialog.c:1769
+#, c-format
+msgid "Window Maker received signal %i."
+msgstr "Window Maker-მა მიიღო სიგნალი %i."
+
+#. Comment for the PO file: the %s is an email address
+#: ../src/dialog.c:1777
+#, c-format
+msgid ""
+" This fatal error occurred probably due to a bug. Please fill the included "
+"BUGFORM and report it to %s."
+msgstr ""
+" კოდში შეცდომის გამოა აღმოჩენილია ფატალური შეცდომა. შეავსეთ ჩასმული BUGFORM "
+"და გაუგზავნეთ ის %s."
+
+#: ../src/dialog.c:1786
+msgid "What do you want to do now?"
+msgstr "რისი გაკეთება გნებავთ ახლა?"
+
+#: ../src/dialog.c:1792
+msgid "Select action"
+msgstr "აირჩიეთ ქმედება"
+
+#: ../src/dialog.c:1793
+msgid "Abort and leave a core file"
+msgstr "შეწყვეტა და ბირთვის ფაილის დატოვება"
+
+#: ../src/dialog.c:1794
+msgid "Restart Window Maker"
+msgstr "Window Maker-ის გადატვირთვა"
+
+#: ../src/dialog.c:1795
+msgid "Start alternate window manager"
+msgstr "ფანჯრების სხვა მმართველის გაშვება"
+
+#: ../src/dock.c:181 ../src/menu.c:1846
+#, c-format
+msgid "Type the name for workspace %i:"
+msgstr "აკრიფეთ სახელი სამუშაო სივრცისთვის %i:"
+
+#: ../src/dock.c:182 ../src/dock.c:1265 ../src/dock.c:1267 ../src/dock.c:3527
+#: ../src/menu.c:1850
+msgid "Rename Workspace"
+msgstr "სამუშაო სივრცის სახელის გადარქმევა"
+
+#: ../src/dock.c:447 ../src/dock.c:454 ../src/winspector.c:801
+msgid "Warning"
+msgstr "გაფრთხილება"
+
+#: ../src/dock.c:448
+msgid ""
+"Some icons cannot be made omnipresent. Please make sure that no other icon "
+"is docked in the same positions on the other workspaces and the Clip is not "
+"full in some workspace."
+msgstr ""
+"ზოგიერთი ხატულა ყველგან ვერ გამოჩნდება. დარწმუნდით, რომ იგივე სხვა სამუშაო "
+"სივრცეების იგივე ადგილას სხვა ხატულები მიმაგრებული არაა და რომ კლიპი ზოგიერთ "
+"სამუშაო სივრცეში სავსე არაა."
+
+#: ../src/dock.c:455
+msgid ""
+"Icon cannot be made omnipresent. Please make sure that no other icon is "
+"docked in the same position on the other workspaces and the Clip is not full "
+"in some workspace."
+msgstr ""
+"ხატულა ყველგან ვერ გამოჩნდება. დარწმუნდით, რომ იგივე სხვა სამუშაო სივრცეების "
+"იგივე ადგილას სხვა ხატულები მიმაგრებული არაა და რომ კლიპი ზოგიერთ სამუშაო "
+"სივრცეში სავსე არაა."
+
+#: ../src/dock.c:504
+msgid "Workspace Clip"
+msgstr "სამუშაო სივრცის კლიპი"
+
+#: ../src/dock.c:504 ../src/dock.c:4566
+msgid "Drawer"
+msgstr "უჯრა"
+
+#: ../src/dock.c:505
+msgid "All selected icons will be removed!"
+msgstr "ყველა მონიშნული ხატულა წაიშლება!"
+
+#. can be: Unselect all icons
+#: ../src/dock.c:547 ../src/dock.c:1279 ../src/dock.c:1281 ../src/dock.c:3565
+msgid "Keep Icon"
+msgstr "ხატულის შენარჩუნება"
+
+#: ../src/dock.c:548 ../src/dock.c:2180 ../src/dock.c:2322
+msgid "Type the command used to launch the application"
+msgstr "აკრიფეთ ბრძანება აპლიკაციის გაშვებად"
+
+#: ../src/dock.c:963
+#, c-format
+msgid "could not launch application %s"
+msgstr "გაშვების პრობლემა აპლიკაციისთვის %s"
+
+#: ../src/dock.c:1009
+msgid "could not create workspace submenu for Clip menu"
+msgstr "კლიპის მენიუსთვის სამუშაო სივრცის ქვემენიუს შექმნა შეუძლებელია"
+
+#: ../src/dock.c:1066
+msgid "could not create options submenu for Clip menu"
+msgstr "კლიპის მენიუში პარამეტრების ქვემენიუს შექმნა შეუძლებელია"
+
+#: ../src/dock.c:1070 ../src/dock.c:1217
+msgid "Keep on Top"
+msgstr "ყველაზე ზემოთ ჩვენება"
+
+#: ../src/dock.c:1075
+msgid "Collapsed"
+msgstr "აკეცილი"
+
+#: ../src/dock.c:1080
+msgid "Autocollapse"
+msgstr "ავტოჩამოშლა"
+
+#: ../src/dock.c:1085
+msgid "Autoraise"
+msgstr "ავტომატური ამოწევა"
+
+#: ../src/dock.c:1090
+msgid "Autoattract Icons"
+msgstr "ხატულების ავტომატური მიმაგრება"
+
+#: ../src/dock.c:1205
+msgid "could not create options submenu for dock position menu"
+msgstr ""
+"დოკის მდებარეობის მენიუსთვის ქვემენიუს პარამეტრების ქვემენიუს შექმნა "
+"შეუძლებელია"
+
+#: ../src/dock.c:1209
+msgid "Normal"
+msgstr "ნორმალური"
+
+#: ../src/dock.c:1213
+msgid "Auto raise & lower"
+msgstr "ავტომატური აწევა/დაწევა"
+
+#: ../src/dock.c:1241
+msgid "Dock position"
+msgstr "დოკის მდებარეობა"
+
+#: ../src/dock.c:1247
+msgid "Add a drawer"
+msgstr "უჯრის დამატება"
+
+#: ../src/dock.c:1251
+msgid "Clip Options"
+msgstr "კლიპის მორგება"
+
+#. if (type == WM_DRAWER)
+#: ../src/dock.c:1253
+msgid "Drawer options"
+msgstr "უჯრის მორგება"
+
+#: ../src/dock.c:1270
+msgid "Selected"
+msgstr "მონიშნული"
+
+#: ../src/dock.c:1275 ../src/dock.c:1277 ../src/dock.c:3555
+msgid "Select All Icons"
+msgstr "ყველა ხატულის მონიშვნა"
+
+#: ../src/dock.c:1284 ../src/dock.c:1286 ../src/dock.c:3575
+msgid "Move Icon To"
+msgstr "ხატულების გადატანა"
+
+#: ../src/dock.c:1292 ../src/dock.c:1294 ../src/dock.c:3589
+msgid "Remove Icon"
+msgstr "ხატულის წაშლა"
+
+#. can be: Remove Icons
+#: ../src/dock.c:1296
+msgid "Attract Icons"
+msgstr "ხატულების მიზიდვა"
+
+#. can be: Unhide
+#: ../src/dock.c:1307
+msgid "Settings..."
+msgstr "მორგება..."
+
+#: ../src/dock.c:1655 ../src/dock.c:1743
+#, c-format
+msgid "bad value in docked icon state info %s"
+msgstr "არასწორი მნიშვნელობა მიმაგრებული ხატულას მდგომარეობის ინფორმაციაში %s"
+
+#: ../src/dock.c:1766
+#, c-format
+msgid "bad value in dock state info:%s"
+msgstr "არასწორი მნიშვნელობა დოკის მდგომარეობის ინფორმაციაში:%s"
+
+#: ../src/dock.c:1971
+msgid "there are too many icons stored in dock. Ignoring what doesn't fit"
+msgstr ""
+"დოკში მეტისმეტად ბევრი ხატულაა დამახსოვრებული. რაც არ ეტევა, გამოტოვებული "
+"იქნება"
+
+#. icon->forced_dock = 1;
+#: ../src/dock.c:2179 ../src/dock.c:2321
+msgid "Dock Icon"
+msgstr "მიმაგრების ხატულა"
+
+#: ../src/dock.c:3432
+#, c-format
+msgid "Could not execute command \"%s\""
+msgstr "ბრძანება \"%s\" ვერ შესრულდა"
+
+#: ../src/dock.c:3533
+msgid "Toggle Omnipresent"
+msgstr "ყველგან წარმოდგენილობის გადართვა"
+
+#: ../src/dock.c:3538 ../src/winmenu.c:114 ../src/winspector.c:99
+msgid "Omnipresent"
+msgstr "ყველგან წარმოდგენილი"
+
+#: ../src/dock.c:3553
+msgid "Unselect All Icons"
+msgstr "ყველა ხატულას მონიშვნის გაუქმება"
+
+#: ../src/dock.c:3563
+msgid "Keep Icons"
+msgstr "ხატულების შენარჩუნება"
+
+#: ../src/dock.c:3573
+msgid "Move Icons To"
+msgstr "ხატულების გადატანა"
+
+#: ../src/dock.c:3587
+msgid "Remove Icons"
+msgstr "ხატულების წაშლა"
+
+#: ../src/dock.c:3617
+msgid "Bring Here"
+msgstr "აქ გადმოტანა"
+
+#: ../src/dock.c:3641
+msgid "Remove drawer"
+msgstr "უჯრის წაშლა"
+
+#: ../src/dock.c:4567
+msgid "All icons in this drawer will be detached!"
+msgstr "ამ უჯრაში არსებული ყველა ხატულა მოიხსნება!"
+
+#: ../src/dock.c:4955
+msgid "there are too many icons stored in drawer. Ignoring what doesn't fit"
+msgstr ""
+"უჯრაში მეტისმეტად ბევრი ხატულაა დამახსოვრებული. რომლებიც არ ეტევა, "
+"გამოტოვებული იქნება"
+
+#: ../src/dockedapp.c:94
+#, c-format
+msgid "could not find icon %s, used in a docked application"
+msgstr "მიმაგრებულ აპლიკაციაში გამოყენებული ხატულა %s აღმოჩენილი არაა"
+
+#: ../src/dockedapp.c:171
+#, c-format
+msgid "Could not open specified icon file: %s"
+msgstr "მითითებული ხატულას ფაილის გახსნა შეუძლებელია: %s"
+
+#: ../src/dockedapp.c:173
+msgid "Ignore"
+msgstr "იგნორი"
+
+#: ../src/dockedapp.c:283
+msgid "Start when Window Maker is started"
+msgstr "გაშვება Window Maker-ის გაშვებისას"
+
+#: ../src/dockedapp.c:288
+msgid "Lock (prevent accidental removal)"
+msgstr "დაბლოკვა (შემთხვევითი წაშლის თავიდან აცილება)"
+
+#: ../src/dockedapp.c:292
+msgid "Application path and arguments"
+msgstr "აპლიკაციის ბილიკი და არგუმენტები"
+
+#: ../src/dockedapp.c:303
+msgid "Command for middle-click launch"
+msgstr "ბრძანება შუა წკაპით გასაშვებად"
+
+#: ../src/dockedapp.c:315
+#, c-format
+msgid "%s will be replaced with current selection"
+msgstr "%s ჩანაცვლდება მიმდინარე მონიშნულით"
+
+#: ../src/dockedapp.c:319
+msgid "Command for dragged and dropped files"
+msgstr "ბრძანება გადათრეული და დაყრილი ფაილებისთვის"
+
+#: ../src/dockedapp.c:331
+#, c-format
+msgid "%d will be replaced with the file name"
+msgstr "%d ფაილის სახელით ჩანაცვლდება"
+
+#: ../src/dockedapp.c:334
+msgid "XDnD support was not compiled in"
+msgstr "XDnD-ის მხარდაჭერა აგების დროს ჩაშენებული არ იყო"
+
+#: ../src/dockedapp.c:342
+msgid "Icon Image"
+msgstr "ხატულის გამოსახულება"
+
+#: ../src/dockedapp.c:353 ../src/winspector.c:1368
+msgid "Browse..."
+msgstr "პოვნა..."
+
+#: ../src/dockedapp.c:411
+msgid "Docked Application Settings"
+msgstr "დოკში არსებული აპლიკაციის მორგება"
+
+#: ../src/event.c:323
+#, c-format
+msgid "read problem when trying to get INotify event: %s"
+msgstr "წაკითხვის პრობლემა INotify-ის მოვლენის მიღების მცდელობისას: %s"
+
+#: ../src/event.c:336
+msgid ""
+"the defaults database has been deleted! Restart Window Maker to create the "
+"database with the default settings"
+msgstr ""
+"ნაგულისხმევების მონაცემთა ბაზა წაიშალა! გადატვირთეთ Window Maker მონაცემთა "
+"ბაზის შესაქმნელად ნაგულისხმევი პარამეტრებით"
+
+#: ../src/event.c:345
+msgid ""
+"the unit containing the defaults database has been unmounted. Setting --"
+"static mode. Any changes will not be saved."
+msgstr ""
+"ერთეული, რომელიც ნაგულისხმევების მონაცემთა ბაზას შეიცავდა, მოხსნილია. "
+"დაყენებული იქნება რეჟიმი --static. შეტანილი ცვლილებების შენახვა არ მოხდება."
+
+#: ../src/event.c:372
+msgid "Inotify: Reading config files in defaults database."
+msgstr ""
+"Inotify: კონფიგურაციის ფაილების წაკითხვა ნაგულისხმევების მონაცემთა ბაზაში."
+
+#. an error has occurred
+#: ../src/event.c:431
+msgid ""
+"select failed. The inotify instance will be closed. Changes to the defaults "
+"database will require a restart to take effect."
+msgstr ""
+"არჩევა ჩავარდა. inotify-ის გაშვებული ასლი დაიხურება. ნაგულისხმევების "
+"მონაცემთა ბაზის ცვლილებებს ძალაში შესასვლელად გადატვირთვა დასჭირდება."
+
+#: ../src/event.c:1064
+msgid "Got Reconfigure command"
+msgstr "მიღებულია თავიდან კონფიგურაციის ბრძანება"
+
+#: ../src/event.c:1067
+#, c-format
+msgid "Got unknown command %s"
+msgstr "მიღებულია უცნობი ბრძანება %s"
+
+#: ../src/event.c:1963
+#, c-format
+msgid "exec %A(Run, Type command:)"
+msgstr "exec %A(გაშვება, აკრიფეთ ბრძანება:)"
+
+#: ../src/event.c:2508
+msgid "another window manager is replacing us!"
+msgstr "სხვა ფანჯრების მმართველი აპირებს, ჩაგვანაცვლოს!"
+
+#: ../src/framewin.c:663 ../src/framewin.c:753 ../src/menu.c:408
+#: ../src/texture.c:453
+#, c-format
+msgid "could not render texture: %s"
+msgstr "რენდერის შეცდომა ტექსტურისთვის: %s"
+
+#: ../src/framewin.c:686 ../src/framewin.c:696 ../src/framewin.c:712
+#: ../src/framewin.c:723 ../src/framewin.c:730 ../src/framewin.c:736
+#: ../src/icon.c:321 ../src/menu.c:435
+#, c-format
+msgid "error rendering image:%s"
+msgstr "გამოსახულების რენდერის შეცდომა:%s"
+
+#: ../src/framewin.c:781
+#, c-format
+msgid "error rendering image: %s"
+msgstr "გამოსახულების რენდერის შეცდომა: %s"
+
+#: ../src/main.c:227
+msgid "failed to restart Window Maker."
+msgstr "Window Maker-ის გადატვირთვის შეცდომა."
+
+#: ../src/main.c:230
+#, c-format
+msgid "could not exec %s"
+msgstr "%s-ის გაშვების შეცდომა"
+
+#: ../src/main.c:252
+#, c-format
+msgid "the display name has an unexpected syntax: \"%s\""
+msgstr "საჩვენებელ სახელს მოულოდნელი სინტაქსი აქვს: \"%s\""
+
+#: ../src/main.c:286
+msgid "Could not execute command: "
+msgstr "ვერ შევასრულე ბრძანება: "
+
+#: ../src/main.c:432
+#, c-format
+msgid "%s aborted.\n"
+msgstr "%s ავარიულად დასრულდა.\n"
+
+#: ../src/main.c:441
+#, c-format
+msgid "Usage: %s [options]\n"
+msgstr "გამოყენება: %s [პარამეტრები]\n"
+
+#: ../src/main.c:442
+msgid "The Window Maker window manager for the X window system"
+msgstr "Window Maker - ფანჯრების მმართველი X window system-ისტვის"
+
+#: ../src/main.c:444
+msgid " -display host:dpy\tdisplay to use"
+msgstr " -display host:dpy\tგამოსაყენებელი ეკრანი"
+
+#: ../src/main.c:446
+msgid " --replace\t\treplace running window manager"
+msgstr " --replace\t\tგაშვებული ფანჯრების მმართველის ჩანაცვლება"
+
+#: ../src/main.c:448
+msgid " --no-dock\t\tdo not open the application Dock"
+msgstr " --no-dock\t\tაპლიკაციების დოკი არ გაიხსნას"
+
+#: ../src/main.c:449
+msgid " --no-clip\t\tdo not open the workspace Clip"
+msgstr " --no-clip\t\tსამუშაო სივრცის კლიპი არ გაიხსნას"
+
+#: ../src/main.c:450
+msgid " --no-autolaunch\tdo not autolaunch applications"
+msgstr " --no-autolaunch\tაპლიკაციების ავტომატურად არგაშვება"
+
+#: ../src/main.c:451
+msgid " --no-drawer\t\tdisable drawers in the dock"
+msgstr " --no-drawer\t\tუჯრების გათიშვა დოკში"
+
+#: ../src/main.c:452
+msgid " --dont-restore\t\tdo not restore saved session"
+msgstr " --dont-restore\t\tშენახული სესიის არაღდგენა"
+
+#: ../src/main.c:454
+msgid " --locale locale\tlocale to use"
+msgstr " --locale ლოკალი\tგამოსაყენებელი ლოკალი"
+
+#: ../src/main.c:456
+msgid " --visual-id visualid\tvisual id of visual to use"
+msgstr " --visual-id visualid\tვიზუალის id გამოსაყენებლად"
+
+#: ../src/main.c:457
+msgid " --static\t\tdo not update or save configurations"
+msgstr " --static\t\tარ მოხდეს კონფიგურაციებს შენახვა, ან განახლება"
+
+#: ../src/main.c:459
+msgid " --no-polling\t\tdo not periodically check for configuration updates"
+msgstr ""
+" --no-polling\t\tარ მოხდეს კონფიგურაციის განახლებების პერიოდული შემოწმება"
+
+#: ../src/main.c:461
+msgid " --global_defaults_path\tprint the path for default config and exit"
+msgstr ""
+" --global_defaults_path\tნაგულისხმევი კონფიგურაციის ბილიკის გამოტანა და "
+"გასვლა"
+
+#: ../src/main.c:462
+msgid " --version\t\tprint version and exit"
+msgstr " --version\t\tვერსიის გამოტანა და გასვლა"
+
+#: ../src/main.c:463
+msgid " --help\t\t\tshow this message"
+msgstr " --help\t\t\tამ შეტყობინების ჩვენება"
+
+#: ../src/main.c:473
+#, c-format
+msgid "could not find user GNUstep directory (%s)."
+msgstr "მომხმარებლის GNUstep-ის საქაღალდის (%s) აღმოჩენილი არაა."
+
+#: ../src/main.c:476
+msgid ""
+"There was an error while creating GNUstep directory, please make sure you "
+"have installed Window Maker correctly and run wmaker.inst"
+msgstr ""
+"შეცდომა საქაღალდის 'GNUstep' შექმნისას. დარწმუნდით, რომ Window Maker სწორად "
+"გაქვთ დაყენებული და გაუშვით wmaker.inst"
+
+#: ../src/main.c:479
+#, c-format
+msgid "%s directory created with default configuration."
+msgstr "%s საქაღალდე შეიქმნა ნაგულისხმევი კონფიგურაციით."
+
+#: ../src/main.c:498
+msgid ""
+"could not initialise an inotify instance. Changes to the defaults database "
+"will require a restart to take effect. Check your kernel!"
+msgstr ""
+"inotify-ის გაშვებული ასლის ინიციალიზაციის შეცდომა. ნაგულისხმევების მონაცემთა "
+"ბაზის ცვლილებებს ძალაში შესასვლელად გადატვირთვა დასჭირდება. შეამოწმეთ "
+"გაშვებული ბირთვი!"
+
+#: ../src/main.c:509
+#, c-format
+msgid ""
+"could not add an inotify watch on path %s. Changes to the defaults database "
+"will require a restart to take effect."
+msgstr ""
+"inotify-ის დამატება ბილიკზე %s შეუძლებელია. ნაგულისხმევების მონაცემთა ბაზაში "
+"ცვლილებებს ძალაში შესასვლელად გადატვირთვა დასჭირდებათ."
+
+#: ../src/main.c:532
+#, c-format
+msgid "%s:could not execute initialization script"
+msgstr "%s:ინიციალიზაციის სკრიპტის შესრულება შეუძლებელია"
+
+#: ../src/main.c:550
+#, c-format
+msgid "%s:could not execute exit script"
+msgstr "%s:გასვლის სკრიპტის შესრულება შეუძლებელია"
+
+#: ../src/main.c:596 ../src/main.c:677 ../src/main.c:684 ../src/main.c:691
+#, c-format
+msgid "too few arguments for %s"
+msgstr "ძალიან ცოტა არგუმენტი %s-ისთვის"
+
+#: ../src/main.c:645
+#, c-format
+msgid "option \"%s\" is deprecated, please remove it from your script"
+msgstr "პარამეტრი \"%s\" მოძველებულია. წაშალეთ ის თქვენი სკრიპტიდან"
+
+#: ../src/main.c:695
+#, c-format
+msgid "bad value for visualid: \"%s\""
+msgstr "არასწორი მნიშვნელობა visualid-ისთვის: \"%s\""
+
+#: ../src/main.c:704
+msgid ""
+"your version of Window Maker was compiled with INotify support, so \"--no-"
+"polling\" has no effect"
+msgstr ""
+"Window Maker-ის თქვენი ვერსია INotify-ის მხარდაჭერის გარეშეა აგებული, ამიტომ "
+"პარამეტრს \"--no-polling\" ძალა არ აქვს"
+
+#: ../src/main.c:710
+#, c-format
+msgid "%s: invalid argument '%s'\n"
+msgstr "%s: არასწორი არგუმენტი '%s'\n"
+
+#: ../src/main.c:711
+#, c-format
+msgid "Try '%s --help' for more information\n"
+msgstr "მეტი ინფორმაციისთვის სცადეთ '%s --help'\n"
+
+#: ../src/main.c:754
+msgid "X server does not support locale"
+msgstr "X სერვერს ლოკალის მხარდაჭერა არ აქვს"
+
+#: ../src/main.c:758
+msgid "cannot set locale modifiers"
+msgstr "ლოკალის მოდიფიკატორების დაყენება შეუძლებელია"
+
+#: ../src/main.c:774
+#, c-format
+msgid "could not open display \"%s\""
+msgstr "გახსნის შეცდომა ეკრანისტვის \"%s\""
+
+#: ../src/menu.c:2438
+#, c-format
+msgid "bad value in menus state info: %s"
+msgstr "არასწორი მნიშვნელობა მენიუების მდგომარეობის ინფორმაციაში: %s"
+
+#: ../src/misc.c:159
+#, c-format
+msgid "can't convert \"%s\" to boolean"
+msgstr "\"%s\"-ის ლოგიკურ მნიშვნელობაში გადაყვანა შეუძლებელია"
+
+#: ../src/misc.c:540 ../src/misc.c:545
+msgid "Program Arguments"
+msgstr "პროგრამის არგუმენტები"
+
+#: ../src/misc.c:541 ../src/misc.c:546
+msgid "Enter command arguments:"
+msgstr "შეიყვანეთ ბრძანების არგუმენტები:"
+
+#: ../src/misc.c:587
+#, c-format
+msgid "out of memory during expansion of \"%s\""
+msgstr "არასაკმარისი მეხსიერება \"%s\"-ის გაფართოებისას"
+
+#: ../src/misc.c:640 ../src/misc.c:657 ../src/misc.c:674 ../src/misc.c:697
+#: ../src/misc.c:718
+#, c-format
+msgid "out of memory during expansion of '%s' for command \"%s\""
+msgstr "არასაკმარისი მეხსიერება \"%s\"-ის გაფართოებისას ბრძანებისთვის \"%s\""
+
+#: ../src/misc.c:711
+msgid "selection not available"
+msgstr "მონიშნული ხელმისაწვდომი არაა"
+
+#: ../src/misc.c:767 ../src/misc.c:768
+msgid "Exit"
+msgstr "გასვლა"
+
+#: ../src/misc.c:768
+msgid "Are you sure you want to quit Window Maker?"
+msgstr "მართლა გნებავთ Window Maker-დან გასვლა?"
+
+#: ../src/misc.c:811 ../src/misc.c:817
+#, c-format
+msgid "bad window name value in %s state info"
+msgstr "არასწორი ფანჯრის სახელის მნიშვნელობა %s-ის მდგომარეობის ინფორმაციაში"
+
+#: ../src/misc.c:1076 ../src/misc.c:1083 ../src/misc.c:1099
+#, c-format
+msgid "%s failed, can't set workspace specific background image (%s)"
+msgstr ""
+"%s ჩავარდა. სამუშაო სივრცის სპეციფიკური ფონის სურათის (%s) დაყენება "
+"შეუძლებელია"
+
+#: ../src/misc.c:1111
+#, c-format
+msgid "could not execute \"%s\": %s"
+msgstr "\"%s\" ვერ შესრულდა: %s"
+
+#: ../src/misc.c:1119
+#, c-format
+msgid ""
+"could not set close-on-exec flag for bg_helper's communication file handle "
+"(%s)"
+msgstr ""
+"close-on-exec ალმის დაყენება bg_helper-ის კომუნიკაციის ფაილის დამმუშავებელზე "
+"(%s)"
+
+#: ../src/misc.c:1159
+msgid "could not send message to background image helper"
+msgstr "ფონის სურათის დამხმარე პროგრამისთვის შეტყობინების გაგზავნა შეუძლებელია"
+
+#: ../src/monitor.c:62
+msgid "trying to start alternate window manager..."
+msgstr "ალტერნატიული ფანჯრების მმართველის გაშვების მცდელობა..."
+
+#: ../src/monitor.c:68
+msgid "failed to start alternate window manager. Aborting."
+msgstr "ალტერნატიული ფანჯრების მმართველის გაშვება ჩავარდა. მუშაობა შეწყდება."
+
+#: ../src/monitor.c:97 ../src/monitor.c:100
+msgid "Error respawning Window Maker"
+msgstr "Window Maker-ის თავიდან გაშვების შეცდომა"
+
+#: ../src/monitor.c:107
+msgid "Error during monitoring of Window Maker process."
+msgstr "შეცდომა Window Maker-ის პროცესის მონიტორინგისას."
+
+#: ../src/monitor.c:132
+#, c-format
+msgid "Window Maker exited due to a crash (signal %i) and will be restarted."
+msgstr ""
+"Window Maker-მა მუშაობა ავარიის (სიგნალი %i) დაასრულა და ის თავიდან გაეშვება."
+
+#.
+#. *  1st %s is a function name
+#. *  2nd %s is an email address
+#. *  3rd %s is the name of the operating system
+#.
+#: ../src/osdep_stub.c:23
+#, c-format
+msgid ""
+"%s is not implemented on this platform; tell %s you are running %s release "
+"%s version %s"
+msgstr ""
+"%s ამ პლატფორმაზე არ არსებობს. უთხარით %s-ს, რომ გაშვებული გაქვთ %s ის "
+"რელიზი %s ვერსია %s"
+
+#: ../src/resources.c:60
+#, c-format
+msgid "could not parse color \"%s\""
+msgstr "დამუშავების შეცდომა ფერისთვის \"%s\""
+
+#: ../src/resources.c:73
+#, c-format
+msgid "could not allocate color \"%s\""
+msgstr "გამოყოფის შეცდომა ფერისთვის \"%s\""
+
+#: ../src/rootmenu.c:183
+msgid "Kill X session"
+msgstr "X-ის სესიის მოკვლა"
+
+#: ../src/rootmenu.c:184
+msgid ""
+"Kill Window System session?\n"
+"(all applications will be closed)"
+msgstr ""
+"მოკვდეს ფანჯრების სისტემის სესია?\n"
+"(დაიხურება ყველა გაშვებული აპლიკაცია)"
+
+#: ../src/rootmenu.c:470
+#, c-format
+msgid "%s: invalid kbd shortcut specification \"%s\" for entry %s"
+msgstr "%s: არასწორი kbd-ის მალსახმობის სპეციფიკაცია \"%s\" ჩანაწერისთვის %s"
+
+#: ../src/rootmenu.c:478
+#, c-format
+msgid "%s: invalid key in shortcut \"%s\" for entry %s"
+msgstr "%s: არასწორი ღილაკი მალსახმობში \"%s\" ჩანაწერისთვის %s"
+
+#: ../src/rootmenu.c:529
+#, c-format
+msgid "%s: unmatched '\"' in menu file"
+msgstr "%s: შესაბამისი '\"' სიმბოლოს გარეშე მენიუს ფაილში"
+
+#: ../src/rootmenu.c:578
+#, c-format
+msgid "%s: missing command"
+msgstr "%s: ბრძანება ვერ ვიპოვე"
+
+#: ../src/rootmenu.c:634
+#, c-format
+msgid "invalid OPEN_MENU specification: %s"
+msgstr "არასწორი OPEN_MENU-ის სპეციფიკაცია: %s"
+
+#: ../src/rootmenu.c:705
+#, c-format
+msgid "%s:could not stat menu"
+msgstr "%s:მენიუ ვერ ვიპოვე"
+
+#: ../src/rootmenu.c:713
+#, c-format
+msgid "%s:could not stat menu:%s"
+msgstr "%s:მენიუ ვერ ვიპოვე:%s"
+
+#: ../src/rootmenu.c:729
+#, c-format
+msgid "too many parameters in OPEN_MENU: %s"
+msgstr "მეტისმეტად ბევრი პარამეტრი OPEN_MENU-ში: %s"
+
+#: ../src/rootmenu.c:767
+#, c-format
+msgid "invalid OPEN_PLMENU specification: %s"
+msgstr "არასწორი OPEN_PLMENU-ის სპეციფიკაცია: %s"
+
+#: ../src/rootmenu.c:823
+msgid ""
+"There are more than one WORKSPACE_MENU commands in the applications menu. "
+"Only one is allowed."
+msgstr ""
+"აპლიკაციების მენიუში არსებობს ერთზე მეტი WORKSPACE_MENU ბრძანება. "
+"დაშვებულია, მხოლოდ, ერთი."
+
+#: ../src/rootmenu.c:854
+msgid ""
+"There are more than one WINDOWS_MENU commands in the applications menu. Only "
+"one is allowed."
+msgstr ""
+"აპლიკაციების მენიუში არსებობს ერთზე მეტი WINDOWS_MENU ბრძანება. დაშვებულია, "
+"მხოლოდ, ერთი."
+
+#: ../src/rootmenu.c:859
+msgid "Window List"
+msgstr "ფანჯრების სია"
+
+#: ../src/rootmenu.c:886 ../src/rootmenu.c:903 ../src/rootmenu.c:920
+#: ../src/rootmenu.c:928
+#, c-format
+msgid "%s:missing parameter for menu command \"%s\""
+msgstr "%s:აკლია პარამეტრი მენიუს ბრძანებისთვის \"%s\""
+
+#: ../src/rootmenu.c:992
+#, c-format
+msgid "%s:unknown command \"%s\" in menu config."
+msgstr "%s:უცნობი ბრძანება \"%s\" მენიუს კონფიგურაციაში."
+
+#: ../src/rootmenu.c:999
+#, c-format
+msgid "%s:can't add shortcut for entry \"%s\""
+msgstr "%s:მალსახმობის დამატების შეცდომა ჩანაწერისთვის \"%s\""
+
+#: ../src/rootmenu.c:1031 ../src/rootmenu.c:1077
+msgid "missing command in menu config"
+msgstr "მენიუს კონფიგურაციას ბრძანება აკლია"
+
+#: ../src/rootmenu.c:1059
+msgid "syntax error in menu file: END declaration missing"
+msgstr "სინტაქსის შეცდომა მენიუს ფაილში: აკლია END დეკლარაცია"
+
+#: ../src/rootmenu.c:1091
+msgid "invalid menu, no menu title given"
+msgstr "მენიუ არასწორია. მენიუს სათაურები მითითებული არაა"
+
+#: ../src/rootmenu.c:1108 ../src/rootmenu.c:1150 ../src/rootmenu.c:1180
+#: ../src/rootmenu.c:1194
+#, c-format
+msgid "could not open menu file \"%s\": %s"
+msgstr "გახსნის შეცდომა მენიუს ფაილისთვის \"%s\": %s"
+
+#: ../src/rootmenu.c:1151
+msgid "pipe command for PropertyList is too long"
+msgstr "PropertyList-ის საკომუნიკაციო არხის ბრძანება მეტისმეტად გრძელია"
+
+#: ../src/rootmenu.c:1181
+msgid "pipe command is too long"
+msgstr "კომუნიკაციის არხის ბრძანება მეტისმეტად გრძელია"
+
+#: ../src/rootmenu.c:1302 ../src/rootmenu.c:1374 ../src/rootmenu.c:1412
+#, c-format
+msgid "out of memory while constructing directory menu %s"
+msgstr "არასაკმარისი მეხსიერება საქაღალდის მენიუს %s აგებისას"
+
+#: ../src/rootmenu.c:1311
+#, c-format
+msgid "%s:could not stat file \"%s\" in menu directory"
+msgstr "%s:აღმოჩენის შეცდომა ფაილისთვის \"%s\" მენიუს საქაღალდისთვის"
+
+#: ../src/rootmenu.c:1461
+msgid "Commands"
+msgstr "ბრძანებები"
+
+#: ../src/rootmenu.c:1464
+msgid "Restart"
+msgstr "გადატვირთვა"
+
+#: ../src/rootmenu.c:1465
+msgid "Exit..."
+msgstr "გასვლა..."
+
+#: ../src/rootmenu.c:1504
+#, c-format
+msgid "could not find menu file \"%s\" referenced in WMRootMenu"
+msgstr "ვერ ვიპოვე WMRootMenu-დან მიმართული მენიუს ფაილი \"%s\""
+
+#: ../src/rootmenu.c:1510
+#, c-format
+msgid "could not access menu \"%s\" referenced in WMRootMenu"
+msgstr "WMRootMenu-დან მიმართულ ფაილზე \"%s\" წვდომა აკრძალულია"
+
+#: ../src/rootmenu.c:1523
+#, c-format
+msgid ""
+"using default menu file \"%s\" as the menu referenced in WMRootMenu could "
+"not be found "
+msgstr ""
+"ჩაიტვირთება ნაგულისხმევი მენიუს ფაილი \"%s\" რადგან მენიუ, რომელსაც "
+"WMRootMenu-დან მიმართავენ, აღმოჩენილი არაა "
+
+#: ../src/rootmenu.c:1553 ../src/rootmenu.c:1613
+#, c-format
+msgid "%s:format error in root menu configuration \"%s\""
+msgstr "%s:ფორმატის შეცდომა ძირითადი მენიუს კონფიგურაციაში \"%s\""
+
+#: ../src/rootmenu.c:1731
+msgid ""
+"The applications menu could not be loaded. Look at the console output for a "
+"detailed description of the errors."
+msgstr ""
+"აპლიკაციების მენიუს ჩატვირთვა შეუძლებელია. შეცდომების დეტალური აღწერის "
+"მისაღებად შეხედეთ კონსოლში გამოტანილ ინფორმაციას."
+
+#: ../src/screen.c:139
+msgid "another window manager is running"
+msgstr "გაშვებულია სხვა ფანჯრების მმართველი"
+
+#: ../src/screen.c:140
+msgid "use the --replace flag to replace it"
+msgstr "ჩასანაცვლებლად გამოიყენეთ პარამეტრი --replace"
+
+#: ../src/screen.c:168
+#, c-format
+msgid "waiting %lus for other window manager to exit"
+msgstr "სხვა ფანჯრების მმართველის მუშაობის დამთავრებისთვის %lu წამის მოლოდინი"
+
+#: ../src/screen.c:179
+msgid "other window manager hasn't exited!"
+msgstr "სხვა ფანჯრების მმართველს მუშაობა არ დაუსრულებია!"
+
+#: ../src/screen.c:183
+msgid "replacing the other window manager"
+msgstr "სხვა ფანჯრების მმართველის ჩანაცვლება"
+
+#: ../src/screen.c:526
+#, c-format
+msgid "could not load logo image for panels: %s"
+msgstr "პანელებისთვის ლოგოს გამოსახულების ჩატვირთვა შეუძლებელია: %s"
+
+#: ../src/screen.c:719
+#, c-format
+msgid "can't create Context on screen %d, %s"
+msgstr "კონტექსტის შექმნის შეცდომა ეკრანზე %d, %s"
+
+#: ../src/screen.c:733
+msgid "could not initialize WINGs widget set"
+msgstr "WINGs-ის ვიჯეტების ნაკრების ინიციალიზაცია ჩავარდა"
+
+#: ../src/screen.c:1025
+#, c-format
+msgid "could not save session state in %s"
+msgstr "%s-ში სესიის მდებარეობის შენახვა შეუძლებელია"
+
+#: ../src/screen.c:1276
+msgid "Unable to find a proper screenshot image format"
+msgstr "სწორი ეკრანის ანაბეჭდის გამოსახულების ფორმატის პოვნა შეუძლებელია"
+
+#: ../src/screen.c:1283
+#, c-format
+msgid "Unable to create screenshot directory: %s"
+msgstr "ეკრანის ანაბეჭდების საქაღალდის შექმნა შეუძლებელია: %s"
+
+#: ../src/screen.c:1293
+msgid ""
+"Unsafe screenshot filename template, it should not contain a path separator"
+msgstr ""
+"სახიფათო ეკრანის ანაბეჭდის ფაილის სახელის ნიმუში. ის ბილიკის გამყოფს არ უნდა "
+"შეიცავდეს"
+
+#: ../src/screen.c:1313
+msgid "Could not generate a free screenshot filename"
+msgstr "თავისუფალი ეკრანის ანაბეჭდის ფაილის სახელის გენერაცია შეუძლებელია"
+
+#: ../src/stacking.c:69
+msgid "could not get window list!!"
+msgstr "ფანჯრების სიის მიღება შეუძლებელია!!"
+
+#: ../src/startup.c:115
+#, c-format
+msgid "internal X error: %s"
+msgstr "შიდა X-ის შეცდომა: %s"
+
+#: ../src/startup.c:573 ../src/startup.c:589 ../src/startup.c:595
+#, c-format
+msgid "could not read domain \"%s\" from defaults database"
+msgstr "ნაგულისხმევების მონაცემთა ბაზიდან დომენის \"%s\" წაკითხვა შეუძლებელია"
+
+#: ../src/startup.c:581
+#, c-format
+msgid "icon size is configured to %i, but it's too small. Using 16 instead"
+msgstr "ხატულას ზომა დაყენებულია %i-ზე, მაგრამ ძალიან პატარაა. გამოიყენება 16"
+
+#: ../src/startup.c:615
+msgid "RandR extension is not available"
+msgstr "გაფართოება RandR ხელმისაწვდომი არაა"
+
+#: ../src/startup.c:617
+msgid "RandR version check failed, RandR disabled"
+msgstr "RandR-ის ვერსიის შემოწმება ჩავარდა. RandR გათიშულია"
+
+#: ../src/startup.c:619
+#, c-format
+msgid "RandR version %d.%d found but RandR version >=1.3 required"
+msgstr "RandR-iის ვერსია %d.%d აღმოჩენილია, მაგრამ საჭიროა RandR version >=1.3"
+
+#: ../src/startup.c:627
+msgid "XKB is not supported. KbdModeLock is automatically disabled."
+msgstr "XKB მხარდაჭერილი არაა. KbdModeLock ავტომატურად გაითიშა."
+
+#: ../src/startup.c:632
+msgid "XKB is not supported."
+msgstr "XKB მხარდაჭერილი არაა."
+
+#: ../src/startup.c:660
+msgid "it seems that there is already a window manager running"
+msgstr "როგორც ჩანს, ფანჯრების მმართველი უკვე გაშვებულია"
+
+#: ../src/startup.c:666
+#, c-format
+msgid "could not manage screen %i"
+msgstr "%i-ე ეკრანის მართვა შეუძლებელია"
+
+#: ../src/startup.c:734
+msgid "could not manage any screen"
+msgstr "ეკრანების მართვა შეუძლებელია"
+
+#: ../src/superfluous.c:311
+#, c-format
+msgid "Impossible direction: %d"
+msgstr "შეუძლებელი მიმართულება: %d"
+
+#: ../src/switchmenu.c:166
+msgid "Windows"
+msgstr "ფანჯრები"
+
+#: ../src/texture.c:330
+#, c-format
+msgid "image file \"%s\" used as texture could not be found."
+msgstr "ტექსტურად გამოყენებული გამოსახულების ფაილი \"%s\" აღმოჩენილი არაა."
+
+#: ../src/texture.c:335
+#, c-format
+msgid "could not load texture pixmap \"%s\":%s"
+msgstr "ჩატვირთვის შეცდომა ტექსტური pixmap-ისთვის \"%s\":%s"
+
+#: ../src/texture.c:457
+msgid "could not allocate image buffer"
+msgstr "გამოსახულების ბუფერის გამოყოფა შეუძლებელია"
+
+#: ../src/wdefaults.c:402
+#, c-format
+msgid "icon \"%s\" doesn't exist, check your config files"
+msgstr "ხატულა \"%s\" არ არსებობს. შეამოწმეთ თქვენი კონფიგურაციის ფაილები"
+
+#: ../src/wdefaults.c:433
+#, c-format
+msgid "error loading image file \"%s\": %s"
+msgstr "გამოსახულების ფაილის \"%s\" ჩატვირთვის შეცდომა: %s"
+
+#: ../src/wdefaults.c:469
+#, c-format
+msgid "could not find default icon \"%s\""
+msgstr "ვერ ვიპოვე ნაგულისხმევი ხატულა \"%s\""
+
+#: ../src/window.c:2992 ../src/window.c:3168
+msgid ""
+"The NumLock, ScrollLock or similar key seems to be turned on. Turn it off or "
+"some mouse actions and keyboard shortcuts will not work."
+msgstr ""
+"როგორც ჩანს, ჩართულია NumLock, ScrollLock, ან მსგავსი ღილაკი. გამორთეთ "
+"ისინი, ან ზოგიერთი თაგუნას ქმედება და კლავიატურის მალსახმობი არ იმუშავებს."
+
+#: ../src/winmenu.c:83 ../src/winmenu.c:668
+msgid "Maximize"
+msgstr "გადიდება"
+
+#: ../src/winmenu.c:84
+msgid "Other maximization"
+msgstr "სხვა გაშლა"
+
+#: ../src/winmenu.c:85 ../src/winmenu.c:651
+msgid "Miniaturize"
+msgstr "მინიატურიზაცია"
+
+#: ../src/winmenu.c:86 ../src/winmenu.c:687
+msgid "Shade"
+msgstr "დაჩრდილვა"
+
+#: ../src/winmenu.c:88
+msgid "Resize/Move"
+msgstr "ზომის შეცვლა/გადატანა"
+
+#: ../src/winmenu.c:89 ../src/winmenu.c:704
+msgid "Select"
+msgstr "არჩევა"
+
+#: ../src/winmenu.c:90
+msgid "Move To"
+msgstr "გადატანა"
+
+#: ../src/winmenu.c:91
+msgid "Attributes..."
+msgstr "ატრიბუტები..."
+
+#: ../src/winmenu.c:92
+msgid "Options"
+msgstr "მორგება"
+
+#: ../src/winmenu.c:94
+msgid "Close"
+msgstr "დახურვა"
+
+#: ../src/winmenu.c:112
+msgid "Keep on top"
+msgstr "ყველაზე ზემოთ ჩვენება"
+
+#: ../src/winmenu.c:113
+msgid "Keep at bottom"
+msgstr "ქვემოთ შენარჩუნება"
+
+#: ../src/winmenu.c:126
+msgid "Vertical"
+msgstr "ვერტიკალური"
+
+#: ../src/winmenu.c:127
+msgid "Horizontal"
+msgstr "ჰორიზონტალური"
+
+#: ../src/winmenu.c:128
+msgid "Central"
+msgstr "ცენტრალური"
+
+#: ../src/winmenu.c:129
+msgid "Left half"
+msgstr "მარცხენა ნახევარი"
+
+#: ../src/winmenu.c:130
+msgid "Right half"
+msgstr "მარჯვენა ნახევარი"
+
+#: ../src/winmenu.c:131
+msgid "Top half"
+msgstr "ზედა ნახევარი"
+
+#: ../src/winmenu.c:132
+msgid "Bottom half"
+msgstr "ქვედა ნახევარი"
+
+#: ../src/winmenu.c:133
+msgid "Top left"
+msgstr "ზედა მარცხენა"
+
+#: ../src/winmenu.c:134
+msgid "Top right"
+msgstr "ზედა მარჯვენა"
+
+#: ../src/winmenu.c:135
+msgid "Bottom left"
+msgstr "ქვედა მარცხენა"
+
+#: ../src/winmenu.c:136
+msgid "Bottom right"
+msgstr "ქვედა მარჯვენა"
+
+#: ../src/winmenu.c:137
+msgid "Tiled"
+msgstr "მოზაიკა"
+
+#: ../src/winmenu.c:260
+msgid ""
+"This will kill the application.\n"
+"Any unsaved changes will be lost.\n"
+"Please confirm."
+msgstr ""
+"ეს აპლიკაციას მოკლავს.\n"
+"შეუნახავი ცვლილებები დაიკარგება.\n"
+"დაადასტურეთ."
+
+#: ../src/winmenu.c:418
+#, c-format
+msgid "Set Shortcut %i"
+msgstr "%i-ე მალსახმობის დაყენება"
+
+#: ../src/winmenu.c:524 ../src/winmenu.c:549 ../src/winmenu.c:575
+msgid "could not create submenu for window menu"
+msgstr "ფანჯრის მენიუსთვის ქვემენიუს შექმნა შეუძლებელია"
+
+#: ../src/winmenu.c:645
+msgid "Deminiaturize"
+msgstr "ჩაკეცვის გაუქმება"
+
+#: ../src/winmenu.c:661
+msgid "Unmaximize"
+msgstr "საწყის ზომაზე დაბრუნება"
+
+#: ../src/winmenu.c:681
+msgid "Unshade"
+msgstr "განჩრდილვა"
+
+#: ../src/winmenu.c:698
+msgid "Deselect"
+msgstr "არჩევის მოხსნა"
+
+#: ../src/winspector.c:73
+msgid "Disable titlebar"
+msgstr "სათაურის ზოლის გამორთვა"
+
+#: ../src/winspector.c:74
+msgid ""
+"Remove the titlebar of this window.\n"
+"To access the window commands menu of a window\n"
+"without its titlebar, press Control+Esc (or the\n"
+"equivalent shortcut, if you changed the default\n"
+"settings)."
+msgstr ""
+"ამ ფანჯრის სათაურის ზოლის მოცილება.\n"
+"ფანჯრის ბრძანებების მენიუსთან სათაურის\n"
+"ზოლის გარეშე წვდომისთვის დააჭირეთ ღილაკს\n"
+"Ctrl+Esc (ან ეკვივალენტურ მალსახმობს, თუ \n"
+"ნაგულისხმევი მალსახმობი შეცვალეთ)."
+
+#: ../src/winspector.c:80
+msgid "Disable resizebar"
+msgstr "ზომის შეცვლის ზოლის გამორთვა"
+
+#: ../src/winspector.c:81
+msgid "Remove the resizebar of this window."
+msgstr "ამ ფანჯრის ზომის შეცვლის ზოლის მოცილება."
+
+#: ../src/winspector.c:83
+msgid "Disable close button"
+msgstr "დახურვის ღილაკის გამორთვა"
+
+#: ../src/winspector.c:84
+msgid "Remove the `close window' button of this window."
+msgstr "'ფანჯრის დახურვის' ღილაკის მოცილება ამ ფანჯრიდან."
+
+#: ../src/winspector.c:86
+msgid "Disable miniaturize button"
+msgstr "ჩაკეცვის ღილაკის გამორთვა"
+
+#: ../src/winspector.c:87
+msgid "Remove the `miniaturize window' button of the window."
+msgstr "'ფანჯრის ჩაკეცვის' ღილაკის მოცილება ფანჯრიდან."
+
+#: ../src/winspector.c:89
+msgid "Disable border"
+msgstr "საზღვრის გამორთვა"
+
+#: ../src/winspector.c:90
+msgid "Remove the 1 pixel black border around the window."
+msgstr "1 პიქსელიანი შავი საზღვრის მოცილება ფანჯრის გარშემო."
+
+#: ../src/winspector.c:92
+msgid "Keep on top (floating)"
+msgstr "ზემოდან შენარჩუნება (მცურავი)"
+
+#: ../src/winspector.c:93
+msgid ""
+"Keep the window over other windows, not allowing\n"
+"them to cover it."
+msgstr ""
+"ამ ფანჯრის ყველა სხვა ფანჯარაზე ზემთ შენარჩუნება ისე,\n"
+"რომ სხვები მას ვერ დაფარავენ."
+
+#: ../src/winspector.c:96
+msgid "Keep at bottom (sunken)"
+msgstr "ქვემოთ შენარჩუნება (ჩაძირული)"
+
+#: ../src/winspector.c:97
+msgid "Keep the window under all other windows."
+msgstr "ფანჯრის შენარჩუნება ყველა სხვა ფანჯრის ქვეშ."
+
+#: ../src/winspector.c:100
+msgid "Make window present in all workspaces."
+msgstr "ფანჯრის გამოჩენა ყველა სამუშაო სივრცეში."
+
+#: ../src/winspector.c:102
+msgid "Start miniaturized"
+msgstr "ჩაკეცილად გაშვება"
+
+#: ../src/winspector.c:103
+msgid ""
+"Make the window be automatically miniaturized when it's\n"
+"first shown."
+msgstr ""
+"ფანჯრის ავტომატურად ჩაკეცილად ჩვენება მისი\n"
+"პირველად ჩვენებისას."
+
+#: ../src/winspector.c:106
+msgid "Start maximized"
+msgstr "გაშლილად გაშვება"
+
+#: ../src/winspector.c:107
+msgid ""
+"Make the window be automatically maximized when it's\n"
+"first shown."
+msgstr ""
+"ფანჯრის ავტომატურად მთელ ეკრანზე გაშლა მისი\n"
+"პირველად ჩვენებისას."
+
+#: ../src/winspector.c:110
+msgid "Full screen maximization"
+msgstr "სრულ ეკრანზე გაშლა"
+
+#: ../src/winspector.c:111
+msgid ""
+"Make the window use the whole screen space when it's\n"
+"maximized. The titlebar and resizebar will be moved\n"
+"to outside the screen."
+msgstr ""
+"ფანჯრისთვის მთელი ეკრანის სივრცის დათმობა,\n"
+"როცა ის გაშლილია. სათაურის და ზომის შეცვლის ზოლები\n"
+"ეკრანს გარეთ იქნება ნაჩვენები."
+
+#: ../src/winspector.c:116
+msgid "Do not bind keyboard shortcuts"
+msgstr "კლავიატურის მალსახმობების არმიბმა"
+
+#: ../src/winspector.c:117
+msgid ""
+"Do not bind keyboard shortcuts from Window Maker\n"
+"when this window is focused. This will allow the\n"
+"window to receive all key combinations regardless\n"
+"of your shortcut configuration."
+msgstr ""
+"Window Maker-ის კლავიატურის მალსახმობების გამორთვა,\n"
+"როცა ამ ფანჯარას ფოკუსი აქვს. ეს ფანჯარას საშუალებას მისცემს,\n"
+"თქვენი კლავიატურის მალსახმობების კონფიგურაციის მიუხედავად\n"
+"ყველა ღილაკის კომბინაცია მიიღოს."
+
+#: ../src/winspector.c:122
+msgid "Do not bind mouse clicks"
+msgstr "თაგუნას წკაპების არმიბმა"
+
+#: ../src/winspector.c:123
+msgid ""
+"Do not bind mouse actions, such as `Alt'+drag\n"
+"in the window (when Alt is the modifier you have\n"
+"configured)."
+msgstr ""
+"თაგუნას ქმედებების, როგორიცაა 'Alt'+გადათრევა\n"
+"გათიშვა ფანჯარაში (როცა Alt წარმოადგენს მოდიფიკატორს,\n"
+"რომელიც მითითებული გაქვთ)."
+
+#: ../src/winspector.c:127
+msgid "Do not show in the window list"
+msgstr "ფანჯრების სიაში არჩვენება"
+
+#: ../src/winspector.c:128
+msgid "Do not list the window in the window list menu."
+msgstr "ფანჯრის არჩასმა ფანჯრების სიის მენიუში."
+
+#: ../src/winspector.c:130
+msgid "Do not show in the switch panel"
+msgstr "პანელის გადართვაში არჩვენება"
+
+#: ../src/winspector.c:131
+msgid "Do not include in switch panel while cycling windows."
+msgstr "გადართვის პანელის არგამოჩენა ფანჯრებს შორის გადართვისას."
+
+#: ../src/winspector.c:133
+msgid "Do not let it take focus"
+msgstr "ფოკუსის აღების აკრძალვა"
+
+#: ../src/winspector.c:134
+msgid ""
+"Do not let the window take keyboard focus when you\n"
+"click on it."
+msgstr ""
+"ფანჯრისთვის კლავიატურის ფოკუსის მიღების\n"
+"უფლების არმიცემა, როცა ზედ დააწკაპუნებთ."
+
+#: ../src/winspector.c:137
+msgid "Keep inside screen"
+msgstr "ეკრანის შიგნით შენარჩუნება"
+
+#: ../src/winspector.c:138
+msgid ""
+"Do not allow the window to move itself completely\n"
+"outside the screen. For bug compatibility.\n"
+msgstr ""
+"ფანჯრისთვის თავისი თავის ეკრანსმიღმა\n"
+"სრულად გადატანის უფლების არმიცემა. შეცდომებთან თავსებადობისთვის.\n"
+
+#: ../src/winspector.c:141
+msgid "Ignore 'Hide Others'"
+msgstr "'სხვების დამალვის' იგნორი"
+
+#: ../src/winspector.c:142
+msgid ""
+"Do not hide the window when issuing the\n"
+"`HideOthers' command."
+msgstr ""
+"ფანჯრის არდამალვა\n"
+"'HideOthers' ბრძანების გაცემისას."
+
+#: ../src/winspector.c:145
+msgid "Ignore 'Save Session'"
+msgstr "'სესიის შენახვის' იგნორი"
+
+#: ../src/winspector.c:146
+msgid ""
+"Do not save the associated application in the\n"
+"session's state, so that it won't be restarted\n"
+"together with other applications when Window Maker\n"
+"starts."
+msgstr ""
+"არ მოხდეს აპლიკაციის შენახვა სესიის\n"
+"მდგომარეობაში. ასეთ შემთხვევაში ის არ\n"
+"გაეშვება სხვა აპლიკაციებთან ერთად\n"
+"Window Maker-ის ჩატვირთვისას."
+
+#: ../src/winspector.c:151
+msgid "Emulate application icon"
+msgstr "აპლიკაციის ხატულას ემულაცია"
+
+#: ../src/winspector.c:152
+msgid ""
+"Make this window act as an application that provides\n"
+"enough information to Window Maker for a dockable\n"
+"application icon to be created."
+msgstr ""
+"ამ ფანჯრის გადაკეთება ისე, თითქოს ის\n"
+"Window Maker-ს აწვდის საკმარის ინფორმაციას,\n"
+"რომ შეიქმნას მიმაგრებადი აპლიკაციის ხატულა."
+
+#: ../src/winspector.c:156
+msgid "Focus across workspaces"
+msgstr "ფოკუსი სამუშაო სივრცეებს შორის"
+
+#: ../src/winspector.c:157
+msgid ""
+"Allow Window Maker to switch workspace to satisfy\n"
+"a focus request (annoying)."
+msgstr ""
+"ფოკუსის მოთხოვნისას Window Maker-ისთვის\n"
+"სამუშაო სივრცის გადართვის უფლების მიცემა (თავს მოგაბეზრებთ)."
+
+#: ../src/winspector.c:160
+msgid "Do not let it be minimized"
+msgstr "ჩაკეცვის უფლების აკრძალვა"
+
+#: ../src/winspector.c:161
+msgid ""
+"Do not let the window of this application be\n"
+"minimized.\n"
+msgstr ""
+"ამ აპლიკაციის ფანჯრის ჩაკეტვის\n"
+"აკრძალვა.\n"
+
+#: ../src/winspector.c:164
+msgid "Ignore decoration changes"
+msgstr "დეკორაციის ცვლილებების იგნორი"
+
+#: ../src/winspector.c:165
+msgid ""
+"Ignore any request from the application to change\n"
+"window decorations (like hiding the titlebar).\n"
+msgstr ""
+"აპლიკაციებიდან ფანჯრის დეკორაციების შეცვლის\n"
+"(მაგ: სათაურის ზოლის დამალვის) მოთხოვნების იგნორი.\n"
+
+#: ../src/winspector.c:169
+msgid "Disable language button"
+msgstr "ენის ღილაკის გამორთვა"
+
+#: ../src/winspector.c:170
+msgid "Remove the `toggle language' button of the window."
+msgstr "'ენის გადართვის' ღილაკის მოცილება ფანჯრიდან."
+
+#: ../src/winspector.c:174
+msgid "Start hidden"
+msgstr "დამალულად გაშვება"
+
+#: ../src/winspector.c:175
+msgid "Automatically hide application when it's started."
+msgstr "აპლიკაციის ავტომატური დამალვა მისი გაშვებისას."
+
+#: ../src/winspector.c:177
+msgid "No application icon"
+msgstr "აპლიკაციის ხატულას გარეშე"
+
+#: ../src/winspector.c:178
+msgid ""
+"Disable the application icon for the application.\n"
+"Note that you won't be able to dock it anymore,\n"
+"and any icons that are already docked will stop\n"
+"working correctly."
+msgstr ""
+"აპლიკაციისთვის ხატულას გათიშვა. გაითვალისწინეთ,\n"
+"რომ მის დოკზე მიმაგრებას ვეღარ მოახერხებთ\n"
+"და ყველა ხატულა, რომელიც უკვე მიმაგრებულია,\n"
+"სწორად მუშაობას შეწყვეტს."
+
+#: ../src/winspector.c:183
+msgid "Shared application icon"
+msgstr "გაზიარებული აპლიკაციის ხატულა"
+
+#: ../src/winspector.c:184
+msgid ""
+"Use a single shared application icon for all of\n"
+"the instances of this application.\n"
+msgstr ""
+"ერთი გაზიარებული აპლიკაციის ხატულას\n"
+"გამოყენება ამ აპლიკაციის ყველა გაშვებული ასლისთვის.\n"
+
+#: ../src/winspector.c:478
+#, c-format
+msgid "Could not find icon \"%s\" specified for this window"
+msgstr "ამ ფანჯრისთვის მითითებული ხატულა \"%s\" აღმოჩენილი არაა"
+
+#: ../src/winspector.c:493
+#, c-format
+msgid "Could not open specified icon \"%s\":%s"
+msgstr "მითითებული ხატულას \"%s\" გახსნა შეუძლებელია:%s"
+
+#: ../src/winspector.c:800
+#, c-format
+msgid ""
+"Ignore client supplied icon is set, but icon filename textbox is empty. "
+"Using client supplied icon"
+msgstr ""
+"კლიენტის მოწოდებული ხატულას იგნორი დაყენებულია, მაგრამ ხატულას ფაილის "
+"სახელის ველი ცარიელია. გამოყენებული იქნება კლიენტის მოწოდებული ხატულა"
+
+#: ../src/winspector.c:987
+#, c-format
+msgid "Inspecting  %s.%s"
+msgstr "მოწმდება  %s.%s"
+
+#: ../src/winspector.c:1012
+msgid "Click in the window you wish to inspect."
+msgstr "დააწკაპუნეთ ფანჯარაზე, რომლის ინსპექციაც გსურთ."
+
+#: ../src/winspector.c:1036
+msgid ""
+"The configuration will apply to all\n"
+"windows that have their WM_CLASS\n"
+"property set to the above selected\n"
+"name, when saved."
+msgstr ""
+"კონფიგურაცია შენახვისას შეეხება\n"
+"ყველა ფანჯარას, რომელსაც აქვს\n"
+"დაყენებული თვისება WM_CLASS\n"
+"ყველა ზემოთ არჩეული სახელით."
+
+#: ../src/winspector.c:1056
+msgid "Save"
+msgstr "შენახვა"
+
+#: ../src/winspector.c:1064
+msgid "Apply"
+msgstr "გადატარება"
+
+#: ../src/winspector.c:1070
+msgid "Reload"
+msgstr "თავიდან ჩატვირთვა"
+
+#: ../src/winspector.c:1079 ../src/winspector.c:1089
+msgid "Window Specification"
+msgstr "ფანჯრის სპეციფიკაცია"
+
+#: ../src/winspector.c:1080
+msgid "Window Attributes"
+msgstr "ფანჯრის ატრიბუტები"
+
+#: ../src/winspector.c:1081
+msgid "Advanced Options"
+msgstr "დამატებითი პარამეტრები"
+
+#: ../src/winspector.c:1082
+msgid "Icon and Initial Workspace"
+msgstr "ხატულა და საწყისი სამუშაო სივრცე"
+
+#: ../src/winspector.c:1083
+msgid "Application Specific"
+msgstr "აპლიკაციაზე-დამოკიდებული"
+
+#: ../src/winspector.c:1096
+msgid "Defaults for all windows"
+msgstr "ნაგულისხმევი ყველა ფანჯრისთვის"
+
+#: ../src/winspector.c:1147
+msgid "Select window"
+msgstr "ფანჯრის არჩევა"
+
+#: ../src/winspector.c:1291
+msgid "Attributes"
+msgstr "ატრიბუტები"
+
+#: ../src/winspector.c:1319
+msgid "Advanced"
+msgstr "დამატებით"
+
+#: ../src/winspector.c:1356
+msgid "Miniwindow Image"
+msgstr "მინიფანჯრის გამოსახულება"
+
+#: ../src/winspector.c:1373
+msgid "Icon filename:"
+msgstr "ხატულას ფაილის სახელი:"
+
+#: ../src/winspector.c:1385
+msgid "Ignore client supplied icon"
+msgstr "კლიენტის მოწოდებული ხატულას იგნორი"
+
+#: ../src/winspector.c:1391
+msgid "Initial Workspace"
+msgstr "საწყისი სამუშაო სივრცე"
+
+#: ../src/winspector.c:1393
+msgid "The workspace to place the window when it's first shown."
+msgstr "სამუშაო სივრცე, რომელსაც ფანჯარა მოთავსება მისი პირველად ჩვენებისას."
+
+#: ../src/winspector.c:1399
+msgid "Nowhere in particular"
+msgstr "ზუსტად არსად"
+
+#: ../src/winspector.c:1420
+msgid "Application Attributes"
+msgstr "აპლიკაციის ატრიბუტები"
+
+#: ../src/workspace.c:99 ../src/workspace.c:719
+#, c-format
+msgid "Workspace %i"
+msgstr "სამუშაო სივრცე %i"
+
+#: ../src/workspace.c:146
+#, c-format
+msgid "Workspace \"%s\" in use; cannot delete"
+msgstr "სამუშაო სივრცე \"%s\" გამოიყენება. წაშლა შეუძლებელია"
+
+#: ../src/workspace.c:765
+msgid "Workspaces"
+msgstr "სამუშაო სივრცეები"
+
+#: ../src/workspace.c:767
+msgid "could not create Workspace menu"
+msgstr "სამუშაო სივრცის მენიუს შექმნა შეუძლებელია"
+
+#: ../src/workspace.c:774
+msgid "New"
+msgstr "ახალი"
+
+#: ../src/workspace.c:775
+msgid "Destroy Last"
+msgstr "ბოლოს განადგურება"
+
+#: ../src/workspace.c:777
+msgid "Last Used"
+msgstr "ბოლოს გამოყენებულები"
+
+#: ../src/xdnd.c:255
+#, c-format
+msgid "wXDNDGetTypeList failed = %ld"
+msgstr "wXDNDGetTypeList ჩავარდა = %ld"
+
+#: ../src/xmodifier.c:134
+#, c-format
+msgid "key %s (0x%x) generates %s, which is generated by %s"
+msgstr "ღილაკი %s (0x%x) აგენერირებს %s-ს, რომელსაც აგენერირებს %s"
+
+#: ../src/xmodifier.c:140
+#, c-format
+msgid "key %s (0x%x) generates %s, which is nonsensical"
+msgstr "ღილაკი %s (0x%x) აგენერირებს %s-ს, რაც უაზრობაა"
+
+#: ../src/xmodifier.c:153
+#, c-format
+msgid "key %s (0x%x) generates both %s and %s, which is nonsensical"
+msgstr "ღილაკი %s (0x%x) აგენერირებს %s-ს და %s-ს ერთდროულად, რაც უაზრობაა"
+
+#: ../src/xmodifier.c:307
+#, c-format
+msgid "Can't convert keymask 0x%04X to a shortcut label"
+msgstr "ღილაკის ნიღბის 0x%04X მალსახმობების ჭდეში გადაყვანა შეუძლებელია"
